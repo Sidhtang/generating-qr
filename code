@@ -1,0 +1,8 @@
+import qrcode as qrcode
+
+# Generate QR code
+image = qrcode.make("https://github.com/dashboard")
+
+# Save QR code image without any spaces in filename
+image.save("GITHUB-Dashboard.png")
+ 
